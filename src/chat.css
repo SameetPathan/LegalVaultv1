@@ -1,0 +1,29 @@
+.message-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .message-list li {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .message-list li.left {
+    justify-content: flex-start;
+  }
+  
+  .message-list li.right {
+    justify-content: flex-end;
+  }
+  
+  .message-list li .name {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .message-list li .message {
+    word-wrap: break-word;
+    max-width: 70%;
+  }
+  

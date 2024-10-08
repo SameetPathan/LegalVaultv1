@@ -1,0 +1,22 @@
+.background-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .background-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
